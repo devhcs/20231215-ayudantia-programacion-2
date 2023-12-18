@@ -8,6 +8,9 @@ class Promedio {
         notas.add(nota)
     }
 
+    /*
+    Esta función calcula el promedio
+     */
     fun calcularPromedio():Float {
         if(notas.size == 0) return 1.0f
         return notas.sum() / notas.size
